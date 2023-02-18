@@ -53,17 +53,29 @@ button{
     font-size: large;
     font-weight: 700;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
 
 }
 .btn{
-    
-    margin-top: 300px; 
+/*     
+    margin: 300px;  */
     display: flex;
     justify-content: center;
+    width: fit-content;
    
 }
 
 .btn1:hover{
     background-color: black;
     color: aliceblue;
+}
+#message-el{
+    padding: 10px 20px;
+    border-radius: 3px;
+    border-style: none;
+    margin-left: 4px;
+    margin-right: 4px;
+    font-size: large;
+    font-weight: 700;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
 }
