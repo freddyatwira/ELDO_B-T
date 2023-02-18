@@ -1,0 +1,69 @@
+body, html{
+    background-color: rgb(233, 233, 233);
+    
+    height: 100%;
+    margin: 0;
+
+}
+
+.bg{
+    background-image: url(./assets/lorry-cover.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+}
+#heading-el{
+    margin: 0;
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700;
+    font-size: large;
+    width: fit-content;
+    /* font-size:2vw; */
+}
+
+.nav-bar{
+    background-color: transparent;
+}
+
+#heading-el:hover{
+    color: black;
+    cursor: pointer;
+}
+
+.navlist{
+    text-decoration: none;
+    font-size: bold;
+    font-weight: 700;
+    color: white;
+    /* float: right; */
+    margin-left: 5px;
+    margin-right: 5px;
+    
+}
+
+button{
+    padding: 10px 20px;
+    border-radius: 3px;
+    border-style: none;
+    margin-left: 4px;
+    margin-right: 4px;
+    font-size: large;
+    font-weight: 700;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.btn{
+    
+    margin-top: 300px; 
+    display: flex;
+    justify-content: center;
+   
+}
+
+.btn1:hover{
+    background-color: black;
+    color: aliceblue;
+}
