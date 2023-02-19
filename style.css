@@ -59,22 +59,20 @@ button{
 .btn{
 /*     
     margin: 300px;  */
-    display: flex;
+    /* display: flex; */
     justify-content: center;
     width: fit-content;
    
 }
 
 .btn1:hover{
-    background-color: black;
-    color: aliceblue;
+    background-image: linear-gradient(to right, rgb(37, 2, 2) , rgb(16, 17, 75));
+    color: goldenrod;
 }
 #message-el{
-    padding: 10px 20px;
+    background-color: white;
     border-radius: 3px;
     border-style: none;
-    margin-left: 4px;
-    margin-right: 4px;
     font-size: large;
     font-weight: 700;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 

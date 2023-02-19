@@ -6,11 +6,18 @@ btn2 = document.getElementById('btn2');
 
 messageEl = document.getElementById('message-el')
 
-function openEditor(){
+
+function getStarted(){
     distance = parseInt(prompt('Enter distance in km'));
-    messageEl.textContent = `Calculate the cost of ${distance}`
-    btn1.textContent = 'ENTER NEW'
+    if(!distance){
+        distance = parseInt(prompt('Enter distance in km'));
+
+    } else {
+        messageEl.textContent = `Calculate the cost of ${distance}`
+        btn1.textContent = 'ENTER NEW'
+    }
 }
+
 
 function calCost(){
     if( distance <= 20){
@@ -20,3 +27,4 @@ function calCost(){
         messageEl.textContent=`Contact us for offers`
     }
 }
+
