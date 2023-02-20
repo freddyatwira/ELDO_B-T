@@ -7,10 +7,7 @@ const btn2El = document.getElementById('btn2');
 
 const ulEl = document.getElementById('ul-el');
 
-
 let messageEl = document.getElementById('btn-addlister');
-
-// saveEl = document.getElementById('save-el')
 
 btn2El.addEventListener("click", function(){
     
@@ -40,7 +37,10 @@ function renderRecent(){
 
     for(let i = 0; i<distance.length; i++){
      
-        ulEl.innerHTML += "<li>" + distance[i] + "km, " + "</li>"
+        ulEl.innerHTML +=`<li>
+                            ${ distance[i]} km
+                        </li>
+        `
     } 
        
   }
