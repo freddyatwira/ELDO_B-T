@@ -7,7 +7,10 @@ const btn2El = document.getElementById('btn2');
 
 const ulEl = document.getElementById('ul-el');
 
-let messageEl = document.getElementById('btn-addlister');
+const messageEl = document.getElementById('btn-addlister');
+
+// const deleteEl = document.getElementById("delete-btn")
+
 
 btn2El.addEventListener("click", function(){
     
@@ -27,18 +30,25 @@ btn2El.addEventListener("click", function(){
         messageEl.textContent = `Cal us please`;
     }
 
-    renderRecent();
+    renderRecent(distance);
  
     distance=[];
  
 });
 
-function renderRecent(){
 
-    for(let i = 0; i<distance.length; i++){
+// deleteEl.addEventListener("dblclick", function(mydistance){
+//     delete renderRecent()
+//     console.log("deleted")
+// })
+
+
+function renderRecent(mydistance){
+
+    for(let i = 0; i<mydistance.length; i++){
      
         ulEl.innerHTML +=`<li>
-                            ${ distance[i]} km
+                            ${ mydistance[i]} km
                         </li>
         `
     } 
@@ -47,6 +57,11 @@ function renderRecent(){
 
 
 
+  function getFirst(arr){
+    return arr[0]
+  }
+
+  getFirst([ 10, 20, 30])
 
 // const card2 = document.getElementById('card2')
 

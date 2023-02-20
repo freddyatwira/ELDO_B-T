@@ -106,3 +106,13 @@ button{
     background-color: aliceblue;
     width: fit-content;
 }
+
+#card3{
+    text-align: center;
+}
+#card-h1{
+    color: aliceblue;
+    font-size:72px;
+    text-shadow: 3px 2px rgb(31, 1, 1);
+    font-family: 'Times New Roman', Times, serif;
+}
