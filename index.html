@@ -32,7 +32,7 @@
               </nav>
               
               <div class="btn-card">
-                <input id="input-el" onkeypress="return /[0-9]/i.test(event.key)" placeholder="Calculate the cost" type="text" required>
+                <input id="input-el" onkeypress="return (event.charCode !=8 && event.charCode ==0 || (event.charCode >= 48 && event.charCode <= 57))" placeholder="Calculate the cost" type="text" required>
         
                 <button class="btn1" id="btn2">CALCULATE</button>
                 <!-- <button id="delete-btn">DELETE ALL</button> -->
