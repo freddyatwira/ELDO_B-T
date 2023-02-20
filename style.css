@@ -48,32 +48,61 @@ button{
     padding: 10px 20px;
     border-radius: 3px;
     border-style: none;
-    margin-left: 4px;
-    margin-right: 4px;
+    margin-top: 5px;
+    /* margin-left: 4px;
+    margin-right: 4px; */
     font-size: large;
     font-weight: 700;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-image: linear-gradient(to right, rgb(66, 2, 2) , rgb(8, 10, 168));
+    color: goldenrod;
     
 
 }
-.btn{
-/*     
-    margin: 300px;  */
+.btn-card{
+    margin-top: 30px;
+    margin-left: 10%;
     /* display: flex; */
     justify-content: center;
-    width: fit-content;
+    /* text-align: center; */
+    /* width: fit-content; */
    
 }
 
 .btn1:hover{
-    background-image: linear-gradient(to right, rgb(37, 2, 2) , rgb(16, 17, 75));
-    color: goldenrod;
+    color: rgb(255, 255, 255);
 }
+
+
 #message-el{
     background-color: white;
+    padding-right: 36px;
+    padding-left: 36px;
     border-radius: 3px;
     border-style: none;
     font-size: large;
     font-weight: 700;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: fit-content;
+}
+
+#input-el{
+    padding: 10px 20px;
+    border-style: solid, 1px, none;
+    border-color: lightgreen;
+    border-radius: 3px;
+    box-sizing: border-box;
+    min-width: 80%;
+    /* max-width: 50%; */
+    /* font-weight: 700; */
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+}
+
+#recent-el{
+    padding-left:20px;
+    padding-right: 20px;
+    font-weight: 700;
+    border-radius: 3px;
+    background-color: aliceblue;
+    width: fit-content;
 }

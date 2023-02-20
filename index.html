@@ -30,11 +30,26 @@
                 </div>
               </nav>
               
-              <div class="btn">
-                <p id="message-el"></p>
-                <button class="btn1" id="btn1" onclick="getStarted()" >GET STARTED</button>
-                <button class="btn1" id="btn2" onclick="calCost()">CALCULATE</button>
+              <div class="btn-card">
+                <input id="input-el" placeholder="Calculate the cost" type="text" required>
+        
+                <button class="btn1" id="btn2">CALCULATE</button>
+                <div id="recent-el">
+                  <p id="btn-addlister"></p>
+                  <p>Recent Searches:</p>
+                  <ul id="ul-el"></ul>
+                </div>
+
+               
               </div>
+<!-- 
+              <div style="background: white; height: 250px; width: fit-content;">
+                To put it simply, a port number is the means through which a specific 
+                message is identified when it’s forwarded to a server. 
+                As there are 65,535 ports for each IP address, a specific 
+                designation would refer to one or several of those thousands of ports. 
+                Depending upon the service type, the message will either be
+              </div> -->
         </div>
         <script src="script.js" async defer></script>
     </body>
